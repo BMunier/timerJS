@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="menu">
+    {{#link-to 'application'}}
+      <h1 class="left">
+        <em>Timer JS</em>
+      </h1>
+    {{/link-to}}
+    <div class="left links">
+      {{#link-to 'stopwatch'}}
+        Stopwatch
+      {{/link-to}}
+      {{#link-to 'tabata'}}
+        Tabata
+      {{/link-to}}
+      {{#link-to 'amrap' class="button"}}
+        AMRAP
+     {{/link-to}}
+     {{#link-to 'emom' class="button"}}
+        EMOM
+     {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

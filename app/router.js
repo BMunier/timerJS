@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('stopwatch');
+  this.route('tabata');
+  this.route('amrap');
+  this.route('emom');
 });
 
 export default Router;
